@@ -1,0 +1,35 @@
+body{
+    background-image: url("shrekdamn.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Title{
+    font-size: 34px;
+    color: white;
+    -webkit-text-stroke: 3px rgb(67, 67, 67);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.368);
+}
+.blurredBG{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.614);
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.squareBorder{
+    border: 3px solid #98b4a6;
+    background-color: rgba(255, 253, 253, 0.249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.135);
+}
+.textShadow{
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.628);
+}
